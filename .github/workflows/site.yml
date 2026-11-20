@@ -37,6 +37,10 @@ jobs:
           test -f build/jaspr/index.html
           grep -q 'href="https://weirdbrains.com"' build/jaspr/index.html
           grep -q 'A Weird Brains project' build/jaspr/index.html
+          grep -q '© 2026 Weird Brains LLC' build/jaspr/index.html
+          for f in carousel.js logo.svg og-image.png fonts/inter-latin.woff2 fonts/space-grotesk-latin.woff2; do
+            test -f "build/jaspr/$f" || { echo "missing $f"; exit 1; }
+          done
           for slug in $(python3 -c 'import json;print(*[p["slug"] for p in json.load(open("data/projects.json"))])'); do
             test -f "build/jaspr/images/projects/$slug.webp" || { echo "missing screenshot $slug"; exit 1; }
           done
