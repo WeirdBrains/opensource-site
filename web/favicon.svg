@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Weird Brains open source"><rect width="64" height="64" rx="14" fill="#0D0D12"/><path d="M20 22l-8 10 8 10M44 22l8 10-8 10M36 18l-8 28" fill="none" stroke="#00E5FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Weird Brains Open Source">
+  <rect width="128" height="128" rx="28" fill="#0A0F2C"/>
+  <g transform="translate(8 9) scale(0.875)">
+  <defs>
+    <linearGradient id="wbf-grad" x1="10" y1="110" x2="118" y2="18" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBBF24"/>
+      <stop offset="0.45" stop-color="#EC4899"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <mask id="wbf-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="128" height="128">
+      <rect width="128" height="128" fill="#fff"/>
+      <path d="M71 18 57 110" stroke="#000" stroke-width="8" stroke-linecap="round"/>
+      <path d="M43 50 30 64l13 14M85 50l13 14-13 14" fill="none" stroke="#000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M22 44c5-7 13-9 20-5M24 80c7 0 11 4 12 11M106 44c-5-7-13-9-20-5M104 80c-7 0-11 4-12 11" fill="none" stroke="#000" stroke-width="5" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <g fill="url(#wbf-grad)" mask="url(#wbf-mask)">
+    <circle cx="38" cy="44" r="20"/><circle cx="28" cy="66" r="18"/><circle cx="40" cy="86" r="18"/>
+    <circle cx="56" cy="34" r="16"/><circle cx="54" cy="64" r="20"/><circle cx="58" cy="92" r="14"/>
+    <circle cx="90" cy="44" r="20"/><circle cx="100" cy="66" r="18"/><circle cx="88" cy="86" r="18"/>
+    <circle cx="72" cy="34" r="16"/><circle cx="74" cy="64" r="20"/><circle cx="70" cy="92" r="14"/>
+  </g>
+  <path d="M112 6c1.2 6.8 3.2 8.8 10 10-6.8 1.2-8.8 3.2-10 10-1.2-6.8-3.2-8.8-10-10 6.8-1.2 8.8-3.2 10-10z" fill="#FACC15"/>
+</g>
+</svg>
