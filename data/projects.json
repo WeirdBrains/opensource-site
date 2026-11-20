@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "morph",
+    "name": "Morph",
+    "kind": "Browser",
+    "blurb": "A private, decentralized browser with local AI built in. The browser is one part of the app, next to chat, notes, projects, and a peer-to-peer web on Weirdnet.",
+    "site": "https://morph.weirdbrains.com/",
+    "repo": "https://github.com/WeirdBrains/morph"
+  },
+  {
+    "slug": "weirdnet",
+    "name": "Weirdnet",
+    "kind": "Rust crates",
+    "blurb": "Open-source Rust crates for peer-to-peer apps: a libp2p node, signed key exchanges and invitations, sealed messaging, identities, relays, and the building blocks Morph, Muninn, TAUR and Salty Gull share.",
+    "site": "https://net.weirdbrains.com/",
+    "repo": "https://github.com/WeirdBrains/weirdnet-net"
+  },
+  {
+    "slug": "mouser",
+    "name": "Mouser",
+    "kind": "Terminal emulator",
+    "blurb": "A terminal emulator written in Rust with GPU rendering, tabs, an SSH connection manager, compressed scrollback and the Fuzzball graphics and keyboard protocol.",
+    "site": "https://mouser.weirdbrains.com/",
+    "repo": "https://github.com/WeirdBrains/mouser"
+  },
+  {
+    "slug": "fuzzball",
+    "name": "Fuzzball",
+    "kind": "Rust crate",
+    "blurb": "Encoder and decoder for the Fuzzball terminal protocol: DCS Fz keyboard, graphics, shell and plugin messages. Rust, no dependencies.",
+    "site": "https://weirdbrains.github.io/fuzzball/",
+    "repo": "https://github.com/WeirdBrains/fuzzball"
+  },
+  {
+    "slug": "muninn",
+    "name": "Muninn",
+    "kind": "Data tool",
+    "blurb": "Data goes in, your magic transforms it. Ingest from CSV, JSON, HTTP APIs, Redis, SQLite and Postgres; export to CSV, Parquet or JSON; browse it in a TUI.",
+    "site": "https://muninn.weirdbrains.com/",
+    "repo": "https://github.com/WeirdBrains/muninn"
+  },
+  {
+    "slug": "ymir",
+    "name": "Ymir",
+    "kind": "Self-hosted AI",
+    "blurb": "Turns your own computers into one private cloud of LLM models, shared over Weirdnet. No hosted service, no open ports, no API keys.",
+    "site": "https://ymir.weirdbrains.com/",
+    "repo": "https://github.com/WeirdBrains/ymir"
+  },
+  {
+    "slug": "bragi",
+    "name": "Bragi",
+    "kind": "Chat app",
+    "blurb": "The chat app for your own Ymir cloud, on desktop and phone. It pairs with your own devices over Weirdnet and streams answers from models on your own machines.",
+    "site": "https://bragi.weirdbrains.com/",
+    "repo": "https://github.com/WeirdBrains/bragi"
+  },
+  {
+    "slug": "itcmdr",
+    "name": "itcmdr",
+    "kind": "IT automation",
+    "blurb": "Self-healing IT for small offices. An agent on every PC checks the network, connections and services each night and repairs what it safely can.",
+    "site": "https://itcmdr.weirdbrains.com/",
+    "repo": "https://github.com/WeirdBrains/itcmdr"
+  },
+  {
+    "slug": "grindvakt",
+    "name": "Grindvakt",
+    "kind": "CLI",
+    "blurb": "A secure, user-mode DNS updater for DNSimple and DigitalOcean, with a local encrypted vault and a systemd, launchd or Windows service.",
+    "site": "https://grindvakt.weirdbrains.com/",
+    "repo": "https://github.com/WeirdBrains/grindvakt"
+  },
+  {
+    "slug": "taur",
+    "name": "TAUR",
+    "kind": "Server",
+    "blurb": "An AUR-compatible package server in Rust. yay and other AUR helpers can search, inspect and clone packages from it.",
+    "site": "https://taur.weirdbrains.com/",
+    "repo": "https://github.com/WeirdBrains/taur"
+  },
+  {
+    "slug": "grokbot-tui",
+    "name": "grokbot-tui",
+    "kind": "Terminal app",
+    "blurb": "A terminal UI for Grok Bot, written in Rust with ratatui and crossterm.",
+    "site": "https://tui.grokbot.weirdbrains.com/",
+    "repo": "https://github.com/WeirdBrains/grokbot-tui"
+  }
+]
