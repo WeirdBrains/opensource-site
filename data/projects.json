@@ -124,6 +124,17 @@
     ]
   },
   {
+    "slug": "taur-packages",
+    "name": "TAUR Packages",
+    "kind": "Package server",
+    "blurb": "The public TAUR package server, an AUR-compatible service you can search and clone from. Point yay or paru at it to install packages.",
+    "site": "https://pkg.taur.weirdbrains.com/",
+    "repo": "https://github.com/WeirdBrains/taur",
+    "tags": [
+      "Rust"
+    ]
+  },
+  {
     "slug": "grokbot-tui",
     "name": "grokbot-tui",
     "kind": "Terminal app",
